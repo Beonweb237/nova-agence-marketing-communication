@@ -136,14 +136,6 @@ export default function Footer() {
             <Link to="#" className="font-body text-[0.75rem] text-[#6B7280] transition-colors hover:text-[#FF006E]">
               Politique de confidentialit\u00E9
             </Link>
-            <a
-              href="https://www.beonweb.cm/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-body text-[0.75rem] text-[#6B7280] transition-colors hover:text-[#FF006E]"
-            >
-              Con\u00E7u par Beonweb
-            </a>
           </div>
         </div>
       </div>
