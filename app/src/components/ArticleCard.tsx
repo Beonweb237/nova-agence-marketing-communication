@@ -22,7 +22,7 @@ interface ArticleCardProps {
 const categoryColorMap: Record<string, string> = {
   'TENDANCES': '#FFBE0B',
   'SOCIAL MEDIA': '#FF006E',
-  'STRAT\u00C9GIE': '#3A86FF',
+  'STRATÉGIE': '#3A86FF',
   'SEO': '#3A86FF',
   'BRANDING': '#FFBE0B',
 };
@@ -33,8 +33,8 @@ export const articles: ArticleData[] = [
     image: '/img-insight-1.jpg',
     category: 'TENDANCES',
     categoryColor: '#FFBE0B',
-    title: 'Les 5 tendances marketing qui red\u00E9finiront 2025',
-    excerpt: "De l'IA g\u00E9n\u00E9rative au social commerce, d\u00E9couvrez ce qui attend les marques.",
+    title: 'Les 5 tendances marketing qui redéfiniront 2025',
+    excerpt: "De l'IA générative au social commerce, découvrez ce qui attend les marques.",
     readTime: '8 min',
     date: '15 jan 2025',
   },
@@ -43,7 +43,7 @@ export const articles: ArticleData[] = [
     image: '/img-insight-2.jpg',
     category: 'SOCIAL MEDIA',
     categoryColor: '#FF006E',
-    title: 'TikTok en 2025 : algorithmie et strat\u00E9gies gagnantes',
+    title: 'TikTok en 2025 : algorithmie et stratégies gagnantes',
     excerpt: "Ce qui fonctionne vraiment sur la plateforme la plus disruptante.",
     readTime: '6 min',
     date: '3 jan 2025',
@@ -51,52 +51,52 @@ export const articles: ArticleData[] = [
   {
     id: 3,
     image: '/img-insight-3.jpg',
-    category: 'STRAT\u00C9GIE',
+    category: 'STRATÉGIE',
     categoryColor: '#3A86FF',
     title: 'Construire une plateforme de marque durable',
-    excerpt: "Le guide complet pour un positionnement qui r\u00E9siste au temps.",
+    excerpt: "Le guide complet pour un positionnement qui résiste au temps.",
     readTime: '10 min',
-    date: '20 d\u00E9c 2024',
+    date: '20 déc 2024',
   },
   {
     id: 4,
     image: '/img-strategy.jpg',
     category: 'SEO',
     categoryColor: '#3A86FF',
-    title: "Core Web Vitals : l'exp\u00E9rience utilisateur comme facteur cl\u00E9",
-    excerpt: "Comment l'optimisation technique booste votre r\u00E9f\u00E9rencement.",
+    title: "Core Web Vitals : l'expérience utilisateur comme facteur clé",
+    excerpt: "Comment l'optimisation technique booste votre référencement.",
     readTime: '7 min',
-    date: '12 d\u00E9c 2024',
+    date: '12 déc 2024',
   },
   {
     id: 5,
     image: '/img-digital.jpg',
     category: 'BRANDING',
     categoryColor: '#FFBE0B',
-    title: 'Le brand journalism : quand la marque devient m\u00E9dia',
-    excerpt: "Pourquoi les plus grandes marques investissent dans l'\u00E9ditorial.",
+    title: 'Le brand journalism : quand la marque devient média',
+    excerpt: "Pourquoi les plus grandes marques investissent dans l'éditorial.",
     readTime: '9 min',
-    date: '5 d\u00E9c 2024',
+    date: '5 déc 2024',
   },
   {
     id: 6,
     image: '/img-social.jpg',
     category: 'SOCIAL MEDIA',
     categoryColor: '#FF006E',
-    title: 'Instagram Reels vs TikTok : o\u00F9 investir en 2025 ?',
-    excerpt: "Comparaison strat\u00E9gique bas\u00E9e sur nos donn\u00E9es de campagne.",
+    title: 'Instagram Reels vs TikTok : où investir en 2025 ?',
+    excerpt: "Comparaison stratégique basée sur nos données de campagne.",
     readTime: '8 min',
     date: '28 nov 2024',
   },
 ];
 
-export const categories = ['Tous', 'Strat\u00E9gie', 'Social Media', 'SEO', 'Branding'];
+export const categories = ['Tous', 'Stratégie', 'Social Media', 'SEO', 'Branding'];
 
 export function getCategoryFilterColor(category: string): string {
   const upper = category.toUpperCase();
   if (upper === 'TENDANCES' || upper === 'BRANDING') return '#FFBE0B';
   if (upper === 'SOCIAL MEDIA') return '#FF006E';
-  if (upper === 'STRAT\u00C9GIE' || upper === 'SEO') return '#3A86FF';
+  if (upper === 'STRATÉGIE' || upper === 'SEO') return '#3A86FF';
   return '#FF006E';
 }
 

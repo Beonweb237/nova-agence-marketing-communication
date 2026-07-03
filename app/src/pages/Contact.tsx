@@ -50,12 +50,12 @@ interface FormErrors {
 /* ------------------------------------------------------------------ */
 const faqItems = [
   {
-    question: 'Quel est votre d\u00E9lai de r\u00E9ponse ?',
-    answer: 'Nous recontactons toutes les demandes sous 24h ouvr\u00E9es.',
+    question: 'Quel est votre délai de réponse ?',
+    answer: 'Nous recontactons toutes les demandes sous 24h ouvrées.',
   },
   {
     question: 'Proposez-vous un audit gratuit ?',
-    answer: 'Oui, nous offrons un audit strat\u00E9gique de 30 min pour tout nouveau projet.',
+    answer: 'Oui, nous offrons un audit stratégique de 30 min pour tout nouveau projet.',
   },
   {
     question: 'Quels types de clients accompagnez-vous ?',
@@ -63,24 +63,24 @@ const faqItems = [
   },
   {
     question: 'Travaillez-vous en remote ?',
-    answer: 'Nous sommes bas\u00E9s \u00E0 Paris mais collaborons avec des clients partout en France et en Europe.',
+    answer: 'Nous sommes basés à Paris mais collaborons avec des clients partout en France et en Europe.',
   },
   {
-    question: 'Comment se d\u00E9roule un projet type ?',
-    answer: '\u00C9tude \u2192 Strat\u00E9gie \u2192 Cr\u00E9ation \u2192 Livraison. En moyenne 6 \u00E0 12 semaines.',
+    question: 'Comment se déroule un projet type ?',
+    answer: 'Étude → Stratégie → Création → Livraison. En moyenne 6 à 12 semaines.',
   },
 ];
 
 const budgetOptions = [
-  '< 10K\u20AC',
-  '10-30K\u20AC',
-  '30-50K\u20AC',
-  '50-100K\u20AC',
-  '> 100K\u20AC',
+  '< 10K€',
+  '10-30K€',
+  '30-50K€',
+  '50-100K€',
+  '> 100K€',
 ];
 
 const besoinOptions = [
-  'Strat\u00E9gie de marque',
+  'Stratégie de marque',
   'Social Media',
   'SEO & SEA',
   'Content Marketing',
@@ -208,14 +208,14 @@ function ContactFormSection() {
 
   const validate = (): boolean => {
     const newErrors: FormErrors = {};
-    if (!formData.prenom.trim()) newErrors.prenom = 'Le pr\u00E9nom est requis';
+    if (!formData.prenom.trim()) newErrors.prenom = 'Le prénom est requis';
     if (!formData.nom.trim()) newErrors.nom = 'Le nom est requis';
     if (!formData.email.trim()) {
       newErrors.email = "L'email est requis";
     } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
       newErrors.email = 'Format email invalide';
     }
-    if (!formData.typeDeBesoin) newErrors.typeDeBesoin = 'Veuillez s\u00E9lectionner un type de besoin';
+    if (!formData.typeDeBesoin) newErrors.typeDeBesoin = 'Veuillez sélectionner un type de besoin';
     if (!formData.message.trim()) newErrors.message = 'Le message est requis';
 
     setErrors(newErrors);
@@ -365,7 +365,7 @@ function ContactFormSection() {
                   onValueChange={(value) => updateField('typeDeBesoin', value)}
                 >
                   <SelectTrigger className="h-12 rounded-md border-[#E5E5E5] px-4 font-body text-[0.875rem] text-black transition-all duration-200 focus:border-[#FF006E] focus:ring-[2px] focus:ring-[rgba(255,0,110,0.1)] [&>span]:text-[#9CA3AF] data-[state=open]:text-black">
-                    <SelectValue placeholder="S\u00E9lectionnez..." />
+                    <SelectValue placeholder="Sélectionnez..." />
                   </SelectTrigger>
                   <SelectContent>
                     {besoinOptions.map((opt) => (
@@ -399,7 +399,7 @@ function ContactFormSection() {
                   onValueChange={(value) => updateField('budget', value)}
                 >
                   <SelectTrigger className="h-12 rounded-md border-[#E5E5E5] px-4 font-body text-[0.875rem] text-black transition-all duration-200 focus:border-[#FF006E] focus:ring-[2px] focus:ring-[rgba(255,0,110,0.1)] [&>span]:text-[#9CA3AF] data-[state=open]:text-black">
-                    <SelectValue placeholder="S\u00E9lectionnez un budget..." />
+                    <SelectValue placeholder="Sélectionnez un budget..." />
                   </SelectTrigger>
                   <SelectContent>
                     {budgetOptions.map((opt) => (
@@ -419,7 +419,7 @@ function ContactFormSection() {
                 <Textarea
                   value={formData.message}
                   onChange={(e) => updateField('message', e.target.value)}
-                  placeholder="D\u00E9crivez votre projet..."
+                  placeholder="Décrivez votre projet..."
                   rows={5}
                   className="min-h-[120px] resize-y rounded-md border-[#E5E5E5] px-4 py-3 font-body text-[0.875rem] text-black transition-all duration-200 placeholder:text-[#9CA3AF] focus:border-[#FF006E] focus:ring-[2px] focus:ring-[rgba(255,0,110,0.1)]"
                 />

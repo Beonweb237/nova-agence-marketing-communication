@@ -21,8 +21,8 @@ gsap.registerPlugin(ScrollTrigger);
 const services = [
   {
     icon: Lightbulb,
-    title: 'Strat\u00E9gie de Marque',
-    desc: 'Positionnement, architecture de marque, plateforme cr\u00E9ative, identit\u00E9 visuelle et verbale',
+    title: 'Stratégie de Marque',
+    desc: 'Positionnement, architecture de marque, plateforme créative, identité visuelle et verbale',
   },
   {
     icon: Monitor,
@@ -32,7 +32,7 @@ const services = [
   {
     icon: Share2,
     title: 'Social Media',
-    desc: 'Community management, cr\u00E9ation de contenu, social listening, strat\u00E9gie cross-plateformes',
+    desc: 'Community management, création de contenu, social listening, stratégie cross-plateformes',
   },
   {
     icon: Users,
@@ -41,13 +41,13 @@ const services = [
   },
   {
     icon: PenTool,
-    title: 'Cr\u00E9ation & Design',
-    desc: 'Direction artistique, design graphique, motion design, production vid\u00E9o et photo',
+    title: 'Création & Design',
+    desc: 'Direction artistique, design graphique, motion design, production vidéo et photo',
   },
   {
     icon: BarChart3,
     title: 'Performance & Data',
-    desc: 'Tableaux de bord personnalis\u00E9s, attribution, reporting, recommandations data-driven',
+    desc: 'Tableaux de bord personnalisés, attribution, reporting, recommandations data-driven',
   },
 ];
 
@@ -55,27 +55,27 @@ const processSteps = [
   {
     num: '01',
     title: 'Discovery',
-    desc: "Immersion dans votre marque, votre march\u00E9 et vos objectifs. Analyse concurrentielle, audits digitaux, et ateliers de co-cr\u00E9ation pour poser les bases strat\u00E9giques.",
+    desc: "Immersion dans votre marque, votre marché et vos objectifs. Analyse concurrentielle, audits digitaux, et ateliers de co-création pour poser les bases stratégiques.",
   },
   {
     num: '02',
-    title: 'Strat\u00E9gie',
-    desc: "Construction de la plateforme de marque, d\u00E9finition des personas, planification m\u00E9dia et cr\u00E9ative. Chaque d\u00E9cision est data-informed.",
+    title: 'Stratégie',
+    desc: "Construction de la plateforme de marque, définition des personas, planification média et créative. Chaque décision est data-informed.",
   },
   {
     num: '03',
-    title: 'Cr\u00E9ation',
-    desc: "Direction artistique, r\u00E9daction, design, production vid\u00E9o et photo. Notre \u00E9quipe cr\u00E9ative donne vie \u00E0 la strat\u00E9gie avec des id\u00E9es percutantes.",
+    title: 'Création',
+    desc: "Direction artistique, rédaction, design, production vidéo et photo. Notre équipe créative donne vie à la stratégie avec des idées percutantes.",
   },
   {
     num: '04',
     title: 'Activation',
-    desc: "D\u00E9ploiement cross-canal : social media, influence, digital, RP. Gestion de campagnes et optimisation en temps r\u00E9el.",
+    desc: "Déploiement cross-canal : social media, influence, digital, RP. Gestion de campagnes et optimisation en temps réel.",
   },
   {
     num: '05',
     title: 'Mesure',
-    desc: "Reporting avanc\u00E9, analyse des KPIs, recommandations d'optimisation. La boucle de feedback continue pour maximiser le ROI.",
+    desc: "Reporting avancé, analyse des KPIs, recommandations d'optimisation. La boucle de feedback continue pour maximiser le ROI.",
   },
 ];
 
@@ -83,7 +83,7 @@ const campaigns = [
   {
     image: '/img-campaign-1.jpg',
     title: "L'Essence du Luxe",
-    client: 'Maison V\u00E9ronne',
+    client: 'Maison Véronne',
     stat1: '+340% ROI',
     stat2: '12M vues',
   },
@@ -97,23 +97,23 @@ const campaigns = [
   {
     image: '/img-campaign-3.jpg',
     title: 'Future is Green',
-    client: '\u00C9coMode',
+    client: 'ÉcoMode',
     stat1: '+180% engagement',
     stat2: '800K reach',
   },
 ];
 
 const stats = [
-  { num: 150, suffix: '+', label: 'Campagnes livr\u00E9es' },
+  { num: 150, suffix: '+', label: 'Campagnes livrées' },
   { num: 98, suffix: '%', label: 'Clients satisfaits' },
-  { num: 3.2, suffix: 'B+', label: 'Impressions g\u00E9n\u00E9r\u00E9es', isDecimal: true },
-  { num: 12, suffix: '', label: "Ann\u00E9es d'expertise" },
+  { num: 3.2, suffix: 'B+', label: 'Impressions générées', isDecimal: true },
+  { num: 12, suffix: '', label: "Années d'expertise" },
 ];
 
 const clientLogos = [
-  'LUMI\u00C8RE',
+  'LUMIÈRE',
   'TECHFLOW',
-  "MAISON \u00C9DOUARD",
+  "MAISON ÉDOUARD",
   'VERTIGO SPORT',
   'BANQUE PRIVEE',
   'ECOCO',
@@ -121,8 +121,8 @@ const clientLogos = [
   'ALIMENTERRA',
 ];
 
-const marqueeRow1 = 'STRATEGIE \u2014 CREATION \u2014 DIGITAL \u2014 INFLUENCE \u2014 BRANDING \u2014 SOCIAL MEDIA \u2014 PERFORMANCE \u2014 ';
-const marqueeRow2 = 'AGENCE NOVA \u2014 PARIS \u2014 LYON \u2014 MARSEILLE \u2014 BORDEAUX \u2014 LILLE \u2014 ';
+const marqueeRow1 = 'STRATEGIE — CREATION — DIGITAL — INFLUENCE — BRANDING — SOCIAL MEDIA — PERFORMANCE — ';
+const marqueeRow2 = 'AGENCE NOVA — PARIS — LYON — MARSEILLE — BORDEAUX — LILLE — ';
 
 /* ──────────────────────────── Home Page ──────────────────────────── */
 
@@ -263,7 +263,7 @@ function MarqueeSection() {
               className="mr-0 font-mono text-[2rem] font-bold uppercase tracking-[0.05em] text-black"
             >
               {marqueeRow1.split('').map((char, j) => (
-                <span key={j}>{char === '\u2014' ? <span className="mx-3 opacity-40">&#9670;</span> : char}</span>
+                <span key={j}>{char === '—' ? <span className="mx-3 opacity-40">&#9670;</span> : char}</span>
               ))}
             </span>
           ))}
@@ -276,7 +276,7 @@ function MarqueeSection() {
               className="mr-0 font-mono text-[2rem] font-bold uppercase tracking-[0.05em] text-black"
             >
               {marqueeRow2.split('').map((char, j) => (
-                <span key={j}>{char === '\u2014' ? <span className="mx-3 opacity-40">&#9670;</span> : char}</span>
+                <span key={j}>{char === '—' ? <span className="mx-3 opacity-40">&#9670;</span> : char}</span>
               ))}
             </span>
           ))}
@@ -351,7 +351,7 @@ function MissionSection() {
           ref={bodyRef}
           className="mx-auto mt-8 max-w-[700px] font-body text-[1.25rem] leading-[1.5] text-[#374151] sm:text-[1.5rem]"
         >
-          NOVA est une agence marketing et communication ind\u00E9pendante. Depuis 2015, nous concevons des strat\u00E9gies cr\u00E9atives qui transforment les marques et g\u00E9n\u00E8rent des r\u00E9sultats mesurables. De la strat\u00E9gie de marque au digital, en passant par l'influence et le content marketing, nous accompagnons nos clients \u00E0 chaque \u00E9tape de leur communication.
+          NOVA est une agence marketing et communication indépendante. Depuis 2015, nous concevons des stratégies créatives qui transforment les marques et génèrent des résultats mesurables. De la stratégie de marque au digital, en passant par l'influence et le content marketing, nous accompagnons nos clients à chaque étape de leur communication.
         </p>
       </div>
     </section>
@@ -470,10 +470,10 @@ function ProcessSection() {
             className="font-display font-bold leading-[1.0] tracking-[-0.02em] text-black"
             style={{ fontSize: 'clamp(28px, 4vw, 56px)' }}
           >
-            De l'id\u00E9e \u00E0 l'impact
+            De l'idée à l'impact
           </h2>
           <p className="mt-4 max-w-[400px] font-body text-[1.125rem] leading-[1.6] text-[#6B7280]">
-            Une m\u00E9thodologie \u00E9prouv\u00E9e pour des r\u00E9sultats garantis.
+            Une méthodologie éprouvée pour des résultats garantis.
           </p>
         </div>
 
@@ -567,7 +567,7 @@ function CampaignsSection() {
             className="font-display font-bold leading-[1.0] tracking-[-0.02em] text-white"
             style={{ fontSize: 'clamp(32px, 5vw, 72px)' }}
           >
-            Campagnes R\u00E9centes
+            Campagnes Récentes
           </h2>
           <Link
             to="/campaigns"
@@ -754,10 +754,10 @@ function CTASection() {
           className="font-display font-bold leading-[1.0] tracking-[-0.02em] text-white"
           style={{ fontSize: 'clamp(28px, 4vw, 56px)' }}
         >
-          Pr\u00EAt \u00E0 cr\u00E9er l'impact ?
+          Prêt à créer l'impact ?
         </h2>
         <p className="mx-auto mt-4 max-w-[600px] font-body text-[1.125rem] leading-[1.6] text-white opacity-90 sm:text-[1.25rem]">
-          Discutons de votre prochaine campagne. Notre \u00E9quipe est pr\u00EAte \u00E0 transformer vos objectifs en r\u00E9sultats.
+          Discutons de votre prochaine campagne. Notre équipe est prête à transformer vos objectifs en résultats.
         </p>
         <Link
           to="/contact"

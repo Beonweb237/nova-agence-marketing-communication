@@ -44,12 +44,12 @@ const serviceTypes = [
   {
     icon: Target,
     color: '#FF006E',
-    title: 'Strat\u00E9gie de Marque',
+    title: 'Stratégie de Marque',
     description:
-      'Positionnement, architecture de marque, plateforme cr\u00E9ative, identit\u00E9 visuelle et verbale. Nous construisons les fondations de votre communication.',
+      'Positionnement, architecture de marque, plateforme créative, identité visuelle et verbale. Nous construisons les fondations de votre communication.',
     deliverables: [
       'Audit de marque',
-      'Plateforme strat\u00E9gique',
+      'Plateforme stratégique',
       'Naming',
       'Architecture de marque',
     ],
@@ -72,11 +72,11 @@ const serviceTypes = [
     color: '#FFBE0B',
     title: 'Social Media',
     description:
-      'Community management, cr\u00E9ation de contenu, social listening. Des communaut\u00E9s engag\u00E9es et un brand love durable.',
+      'Community management, création de contenu, social listening. Des communautés engagées et un brand love durable.',
     deliverables: [
-      'Strat\u00E9gie social',
-      'Calendrier \u00E9ditorial',
-      'Cr\u00E9ation de contenu',
+      'Stratégie social',
+      'Calendrier éditorial',
+      'Création de contenu',
       'Community management',
     ],
   },
@@ -87,7 +87,7 @@ const serviceTypes = [
     description:
       'Relations presse, partenariats influenceurs, brand advocacy. Le bon message, au bon interlocuteur, au bon moment.',
     deliverables: [
-      'Strat\u00E9gie influence',
+      'Stratégie influence',
       'Casting influenceurs',
       'Relations presse',
       'Gestion de crise',
@@ -96,14 +96,14 @@ const serviceTypes = [
   {
     icon: Palette,
     color: '#3A86FF',
-    title: 'Cr\u00E9ation & Design',
+    title: 'Création & Design',
     description:
-      "Direction artistique, design graphique, motion design, production vid\u00E9o. Des id\u00E9es qui se voient et s'entendent.",
+      "Direction artistique, design graphique, motion design, production vidéo. Des idées qui se voient et s'entendent.",
     deliverables: [
       'Direction artistique',
       'Design system',
       'Motion design',
-      'Production vid\u00E9o/photo',
+      'Production vidéo/photo',
     ],
   },
   {
@@ -111,7 +111,7 @@ const serviceTypes = [
     color: '#FFBE0B',
     title: 'Performance & Data',
     description:
-      'Tableaux de bord, attribution, reporting. Des d\u00E9cisions \u00E9clair\u00E9es par les donn\u00E9es.',
+      'Tableaux de bord, attribution, reporting. Des décisions éclairées par les données.',
     deliverables: [
       'Dashboards custom',
       'Attribution modeling',
@@ -145,7 +145,7 @@ const channels = [
   {
     name: 'Email & SMS',
     services: [
-      'Strat\u00E9gie CRM',
+      'Stratégie CRM',
       'Templates',
       'Automation',
       'Segmentation',
@@ -178,25 +178,25 @@ const channels = [
       'Apps',
       'E-commerce',
       'UX/UI',
-      'D\u00E9veloppement sur mesure',
+      'Développement sur mesure',
     ],
   },
 ];
 
 const sectors = [
-  { number: '01', name: 'Luxe & Mode', expertise: 'Strat\u00E9gie premium, exp\u00E9rience client, storytelling patrimonial, influence' },
+  { number: '01', name: 'Luxe & Mode', expertise: 'Stratégie premium, expérience client, storytelling patrimonial, influence' },
   { number: '02', name: 'Tech & SaaS', expertise: 'Growth marketing, product marketing, content technique, lead generation' },
-  { number: '03', name: 'Retail & E-commerce', expertise: 'Acquisition, conversion, fid\u00E9lisation, marketplaces' },
-  { number: '04', name: 'Food & Beverage', expertise: 'Branding sensoriel, social food, influence culinaire, \u00E9v\u00E9nementiel' },
-  { number: '05', name: 'Sport & Lifestyle', expertise: 'Communaut\u00E9, activation, partenariats, content lifestyle' },
-  { number: '06', name: 'Automobile & Mobilit\u00E9', expertise: 'Lancement produit, exp\u00E9rience digitale, r\u00E9seaux sociaux, RP' },
+  { number: '03', name: 'Retail & E-commerce', expertise: 'Acquisition, conversion, fidélisation, marketplaces' },
+  { number: '04', name: 'Food & Beverage', expertise: 'Branding sensoriel, social food, influence culinaire, événementiel' },
+  { number: '05', name: 'Sport & Lifestyle', expertise: 'Communauté, activation, partenariats, content lifestyle' },
+  { number: '06', name: 'Automobile & Mobilité', expertise: 'Lancement produit, expérience digitale, réseaux sociaux, RP' },
 ];
 
 const processSteps = [
   { num: '01', title: 'Discovery', desc: 'Immersion, audit, ateliers' },
-  { num: '02', title: 'Strat\u00E9gie', desc: "Plan d'action data-informed" },
-  { num: '03', title: 'Cr\u00E9ation', desc: 'Direction artistique & production' },
-  { num: '04', title: 'Activation', desc: 'D\u00E9ploiement cross-canal' },
+  { num: '02', title: 'Stratégie', desc: "Plan d'action data-informed" },
+  { num: '03', title: 'Création', desc: 'Direction artistique & production' },
+  { num: '04', title: 'Activation', desc: 'Déploiement cross-canal' },
   { num: '05', title: 'Mesure', desc: 'Reporting & optimisation' },
 ];
 

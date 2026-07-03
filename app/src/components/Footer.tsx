@@ -6,13 +6,13 @@ const navLinks = [
   { label: 'Services', href: '/services' },
   { label: 'Campagnes', href: '/campaigns' },
   { label: 'Clients', href: '/clients' },
-  { label: '\u00C9quipe', href: '/team' },
+  { label: 'Équipe', href: '/team' },
   { label: 'Insights', href: '/insights' },
   { label: 'Contact', href: '/contact' },
 ];
 
 const services = [
-  'Strat\u00E9gie de marque',
+  'Stratégie de marque',
   'Social Media',
   'SEO & SEA',
   'Content Marketing',
@@ -31,7 +31,7 @@ export default function Footer() {
               NOVA
             </Link>
             <p className="mt-4 font-body text-[0.875rem] leading-relaxed text-[#6B7280]">
-              Agence marketing et communication ind\u00E9pendante. Nous concevons des strat\u00E9gies cr\u00E9atives qui transforment les marques et g\u00E9n\u00E8rent des r\u00E9sultats mesurables.
+              Agence marketing et communication indépendante. Nous concevons des stratégies créatives qui transforment les marques et génèrent des résultats mesurables.
             </p>
           </div>
 
@@ -127,14 +127,14 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 flex flex-col items-center justify-between gap-4 border-t border-[#222] pt-8 sm:flex-row">
           <p className="font-body text-[0.75rem] text-[#6B7280]">
-            &copy; {new Date().getFullYear()} NOVA Agence. Tous droits r\u00E9serv\u00E9s.
+            &copy; {new Date().getFullYear()} NOVA Agence. Tous droits réservés.
           </p>
           <div className="flex gap-6">
             <Link to="#" className="font-body text-[0.75rem] text-[#6B7280] transition-colors hover:text-[#FF006E]">
-              Mentions l\u00E9gales
+              Mentions légales
             </Link>
             <Link to="#" className="font-body text-[0.75rem] text-[#6B7280] transition-colors hover:text-[#FF006E]">
-              Politique de confidentialit\u00E9
+              Politique de confidentialité
             </Link>
           </div>
         </div>

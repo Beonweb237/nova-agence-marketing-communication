@@ -60,9 +60,9 @@ function FeaturedSection() {
     image: '/img-insight-1.jpg',
     category: 'TENDANCES',
     categoryColor: '#FF006E',
-    title: 'Les 5 tendances marketing qui red\u00E9finiront 2025',
+    title: 'Les 5 tendances marketing qui redéfiniront 2025',
     excerpt:
-      "De l'IA g\u00E9n\u00E9rative au social commerce, d\u00E9couvrez les forces qui transformeront le paysage marketing cette ann\u00E9e. Notre analyse compl\u00E8te pour anticiper et performer.",
+      "De l'IA générative au social commerce, découvrez les forces qui transformeront le paysage marketing cette année. Notre analyse complète pour anticiper et performer.",
     readTime: '8 min',
     date: '15 janv. 2025',
   };
